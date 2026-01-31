@@ -63,6 +63,11 @@
 
 ### 5. Визуализация контекста системы — диаграмма С4
 
+## C4 Context Diagram
+
+Ниже контекстная диаграмма для монолитного приложения управления отоплением и мониторинга температуры.
+
+```puml
 @startuml
 title Heating & Temperature Monitoring System - Context
 
@@ -84,6 +89,7 @@ Rel(client, system, "REST API")
 Rel(sensors, system, "Передают показания")
 
 @enduml
+```
 
 # Задание 2. Проектирование микросервисной архитектуры
 
